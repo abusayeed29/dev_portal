@@ -1,0 +1,73 @@
+.active-user{
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+.btn-sm-custom{
+    padding: 3px 3px !important;
+}
+.table th, .table td{
+    padding: 0.7rem 0.9375rem !important;
+}
+.table-perm  th, .table td{
+    padding: 0.5rem 0.9375rem !important
+}
+
+.auth-page .auth-left-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/hr-tower.jpg') !important;
+    background-size: cover; 
+}
+.star-color{
+    color:  #ff0000;
+}
+.border-radius-0{
+    border-radius: 0 !important;
+}
+.navbar .navbar-content .navbar-nav .nav-item .nav-link .indicator {
+    position: absolute;
+    top: -2px !important;
+    right: -4px !important;
+}
+.navbar .navbar-content .navbar-nav .nav-item .nav-link .indicator .circle {
+    width: 12px !important;
+    height: 12px !important;
+    font-size: 8px;
+    color: #fff;
+    text-align: center;
+}
+.overflow-y-scroll{
+    overflow-y: scroll !important;
+}
+.d-in-block{
+    display: inline-block !important;
+}
+.total_status{
+    background-color: #e0d9ff;
+}
+.solve_status{
+    background-color: #dcffed;
+}
+.open_status{
+    background-color: #ddf7ff;
+}
+.ongoing_status{
+    background-color: #dbe6ff;
+}
+.new_status{
+    background-color: #ffdae1;
+}
+
+.toast-success {
+    background-color: #51A351 !important;
+}
+.toast-error {
+background-color: #BD362F !important;
+}
+.toast-info {
+background-color: #2F96B4 !important;
+}
+.toast-warning {
+background-color: #F89406 !important;
+}

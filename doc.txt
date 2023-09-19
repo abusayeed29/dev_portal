@@ -1,0 +1,106 @@
+composer require laravel/ui
+php artisan ui bootstrap --auth
+npm install && npm run dev
+
+UPDATE `users` SET `password` = '$2y$10$i/R1.yR2SBGLE3lpmLvJiuND42UUp0060Rk5Q/XQyupJwXT/GZBVK' WHERE `users`.`id` = 67;
+
+Class 'App\Role' not found
+    Role::class instead of App\Role::class
+
+
+    Notification
+    https://laravel.com/docs/8.x/notifications
+
+    https://laravel.com/docs/8.x/queues
+    php artisan queue:table
+
+    php artisan migrate
+
+    php artisan queue:work
+
+    php artisan websockets:serve
+
+
+    Source: https://www.youtube.com/watch?v=zbqmjxTz7Ys
+
+
+    For XLS data to CSV
+     Change data format to query
+
+    Composer require phpoffice/phpspreadsheet doesn't work
+      => composer require beyondcode/laravel-websockets --ignore-platform-reqs
+
+    Cannot find module "laravel-echo" (https://stackoverflow.com/questions/10394841/cannot-find-module-laravel-echo)
+        npm install --save laravel-echo pusher-js 
+        npm install -g laravel-echo-server
+
+
+       => after install websocket and replacing pusher 
+         create event
+        -  php artisan make:event WebsocketDemoEvent
+
+
+
+Laravel real time chat source youtube channel:
+    https://www.youtube.com/playlist?list=PL1TrjkMQ8UbWfFUCimQ50CdrR_J7QvEFW
+    ============================
+
+php artisan make:event MessageSent
+
+error:
+    http://localhost:8000/broadcasting/auth 404 (Not Found)
+
+    Look in config/app.php if you have uncommented:
+    App\Providers\BroadcastServiceProvider::class,
+
+    npm install --save vue-chat-scroll
+
+    https://laravel.com/docs/8.x/broadcasting
+
+
+real time notification laravel
+    https://www.youtube.com/playlist?list=PLEHx9BVUzI6Yp0vOYCV2nNjO49PkWlPvi
+
+php artisan down
+php artisan up
+
+    rowspan table create
+    =====================
+        @foreach($slas as $single)
+            @php ($first = true) @endphp
+            @foreach($single->slaSubCategory as $sub_single)
+            <tr>
+                @if($first == true)
+                    <td rowspan="{{count($single->slaSubCategory)}}" >{{$single->id}}</td>
+                    <td rowspan="{{count($single->slaSubCategory)}}">{{ $single->name}}</td>
+                    @php ($first = false) @endphp
+                @endif
+                <td >{{$sub_single->name}}</td>
+                <td>{{ $sub_single->user_id}}</td>
+                <td>{{ $sub_single->lead_time}}</td>
+                <td><span class="badge bg-danger"></span></td>
+                <td>View</td>
+            </tr>
+            @endforeach
+            
+        @endforeach
+
+
+    
+
+    inventory:
+    https://pos.creatantech.com/dashboard
+    https://billing.ultimatekode.com/geoposdemo/
+
+
+    full calndar
+
+    https://laraveldaily.com/post/laravel-appointment-calendar-fullcalendar-demo
+
+
+
+    https://laraveldaily.com/post/working-with-mysql-json-columns-in-laravel-custom-properties-example
+
+    https://demo.assetexplorer.com/AssetHomePage.do?username=demo&password=demo
+
+    
